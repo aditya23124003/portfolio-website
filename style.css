@@ -1,0 +1,106 @@
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: hsl(237, 91%, 9%);
+    min-height: 10% !important;
+    height: 10vb;
+    color: azure;
+    font-size:50px;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .start
+  {
+  display: inline-block;
+  }
+
+  #Ag {
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+  }
+main
+{
+background-color: #CAD0D8;
+}
+  /* #develop {
+    position: relative;
+    left: 200px;
+  } */
+  #button {
+
+    font-size: 30px;
+    float: right;
+    text-align: center;
+    padding: 12px 14px;
+  }
+  .navi{
+    padding: 10px 10px;
+    color: aliceblue;
+  }
+  #photo {
+    position: relative;
+    top: -25px;
+    left: 800px;
+  }
+  #name
+  {
+    padding:30px;
+    font-style:italic;
+  color: beige;
+
+  }
+  #intro {
+    height: 200px;
+    width: 800px;
+    font-size: 50px;
+    text-align: left;
+    position: relative;
+    top: 275px;
+    left: 200px;
+
+
+    overflow: hidden;
+white-space: nowrap;
+width: 0;
+animation: typing;
+animation-duration: 2s;
+animation-timing-function: steps(30, end);
+animation-fill-mode: forwards;
+  }
+
+  @keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+@keyframes blinking {
+0% {border-right-color: transparent}
+50% {border-right-color: black}
+100% {border-right-color: transparent}
+}
+  div
+  {
+      padding: 30px 30px;
+      font-size: 20px;
+      font-family:sans-serif
+  }
+
+  h1 {
+    color: hsl(237, 91%, 9%);
+  }
+  h2
+  {
+    background-color: hsl(237, 91%, 9%);
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family:serif;
+  }
